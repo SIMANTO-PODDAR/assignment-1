@@ -26,12 +26,14 @@
 
 /* separate style  */
 
+
+                                /* Header section */
+
 .nav-section{
   height: 92px;
   max-width: 1600px;
   margin: 0 auto;
 }
-
 
 header .nav-section nav{
   display: flex;
@@ -49,6 +51,79 @@ header .nav-section .nav-ul a{
 header .nav-section nav .nav-ul ul{
   display: flex;
   gap: 30px;
-  list-style-type: none:
+  list-style-type: none;
 
+}
+
+
+                            /* Banner section */
+
+.banner{
+  background-image: url(./image/hero-bg.png);
+  height: 950px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-section .banner .banner-content {
+  margin: 0 auto;
+  text-align: center;
+  width: 850px;
+  padding-top: 210px;
+}
+
+.banner .btn-div{
+  background-color: white;
+  color: #30B868;
+  border-radius: 50px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  width: 250px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+}
+
+.banner-section .banner .banner-content h2{
+  margin-top: 16px;
+  font-size: 72px;
+  font-weight: 700;
+  color: white;
+}
+
+.banner-section .banner .banner-content #banner-content-h2{
+  color: #30B868;
+}
+
+.banner-section .banner .banner-content p{
+  color: white;
+  width: 650px;
+  justify-content: center;
+  text-align: center;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.banner .banner-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.banner .banner-btn .btn2{
+  color: white;
+  border: 1px solid white;
+  padding: 15px 12px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
 }
