@@ -23,7 +23,6 @@
 
 
 
-
 /* separate style  */
 
 
@@ -37,7 +36,7 @@
 
 header .nav-section nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 15px;
 }
@@ -90,8 +89,8 @@ header .nav-section nav .nav-ul ul{
 }
 
 .banner-section .banner .banner-content h2{
-  margin-top: 16px;
-  font-size: 72px;
+  margin-top: 15px;
+  font-size: 70px;
   font-weight: 700;
   color: white;
 }
@@ -132,7 +131,6 @@ header .nav-section nav .nav-ul ul{
 .notes-section{
   margin: 100px auto;
   text-align: center;
-  gap: 16px;
   max-width: 1600px;
 }
 
@@ -143,25 +141,24 @@ header .nav-section nav .nav-ul ul{
 }
 
 .notes-section p{
-  color: var;
-  margin-top: 16px;
+  margin-top: 15px;
+  color: #627382;
 }
 
 .notes-section .note-cards{
   display: flex;
   margin-top: 40px;
+  justify-content: space-between;
 }
 
 .notes-section .card{
   height: 300px;
   width: 300px;
-  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 0px 8px 0px #0000000f;
   justify-items: center;
   padding: 24px;
   max-width: 1600px;
-  margin: 0 auto;
   margin-top: 45px;
-
 }
 
 .notes-section .note-cards .card #note-img{
@@ -169,7 +166,62 @@ header .nav-section nav .nav-ul ul{
   width: 60px;
   background-color: #f95555;
   border-radius: 50px;
-  justify-content: center;
   align-content: center;
   margin-top: 60px;
+}
+
+                              /* Second Brain Section */
+
+.second-brain{
+  max-width: 1600px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.sec-brain-img{
+  height: 650px;
+  width: 850px;
+  background-image: url(./image/knowledge.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.second-brain-solution{
+  margin-top: 100px;
+  width: 1100px;
+}
+
+.second-brain-solution #green-p{
+  color: #30B868;
+  font-weight: 500
+}
+
+.second-brain-solution h2{
+  margin-top: 15px;
+  font-size: 48px;
+  font-weight: 700;
+  width: 550px;
+}
+
+.second-brain-solution #sec-brain-p{
+  margin-top: 15px;
+  width: 500px;
+  color: #627382;
+}
+
+.fa-circle-check-div{
+  margin-top: 40px;
+}
+
+
+.fa-circle-check-div i{
+  color: #30B868;
+}
+
+.fa-circle-check-div h4{
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 15px;
 }
