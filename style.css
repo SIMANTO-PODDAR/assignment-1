@@ -20,6 +20,13 @@
   cursor: pointer;
 }
 
+.btn:hover{
+  background-color: aqua;
+}
+
+.btn2:hover{
+  background-color: aqua;
+}
 
 
 /* separate style  */
@@ -45,13 +52,17 @@ header .nav-section .nav-ul a{
   color: black;
   font-weight: 500;
 }
+header .nav-section .nav-ul a:hover{
+  background-color: #30B868;
+}
 
 header .nav-section nav .nav-ul ul{
   display: flex;
   gap: 30px;
   list-style-type: none;
-
 }
+
+
 
 
                             /* Banner section */
@@ -85,6 +96,11 @@ header .nav-section nav .nav-ul ul{
   align-items: center;
   justify-content: center;
   padding: 8px 12px;
+  cursor: pointer;
+}
+
+.banner .btn-div:hover{
+  background-color: aqua;
 }
 
 .banner-section .banner .banner-content h2{
@@ -159,6 +175,11 @@ header .nav-section nav .nav-ul ul{
   border-radius: 10px;
   max-width: 1600px;
   margin-top: 45px;
+}
+
+.notes-section .card:hover{
+  cursor: pointer;
+  border: 0.25px solid #f95555;
 }
 
 .notes-section .note-cards .card #note-img{
