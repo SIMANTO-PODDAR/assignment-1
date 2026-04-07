@@ -1,15 +1,15 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-.open-sans{
+.open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
 /* common style */
-.btn{
+.btn {
   color: white;
   background-color: #30B868;
   border: none;
@@ -20,11 +20,11 @@
   cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: aqua;
 }
 
-.btn2:hover{
+.btn2:hover {
   background-color: aqua;
 }
 
@@ -32,31 +32,32 @@
 /* separate style  */
 
 
-                                /* Header section */
+/* Header section */
 
-.nav-section{
+.nav-section {
   height: 92px;
   max-width: 1600px;
   margin: 0 auto;
 }
 
-header .nav-section nav{
+header .nav-section nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
 }
 
-header .nav-section .nav-ul a{
+header .nav-section .nav-ul a {
   text-decoration: none;
   color: black;
   font-weight: 500;
 }
-header .nav-section .nav-ul a:hover{
+
+header .nav-section .nav-ul a:hover {
   background-color: #30B868;
 }
 
-header .nav-section nav .nav-ul ul{
+header .nav-section nav .nav-ul ul {
   display: flex;
   gap: 30px;
   list-style-type: none;
@@ -65,9 +66,9 @@ header .nav-section nav .nav-ul ul{
 
 
 
-                            /* Banner section */
+/* Banner section */
 
-.banner{
+.banner {
   background-image: url(./image/hero-bg.png);
   height: 950px;
   width: 100%;
@@ -82,7 +83,7 @@ header .nav-section nav .nav-ul ul{
   padding-top: 210px;
 }
 
-.banner .btn-div{
+.banner .btn-div {
   background-color: white;
   color: #30B868;
   border-radius: 50px;
@@ -99,22 +100,22 @@ header .nav-section nav .nav-ul ul{
   cursor: pointer;
 }
 
-.banner .btn-div:hover{
+.banner .btn-div:hover {
   background-color: aqua;
 }
 
-.banner-section .banner .banner-content h2{
+.banner-section .banner .banner-content h2 {
   margin-top: 15px;
   font-size: 70px;
   font-weight: 700;
   color: white;
 }
 
-.banner-section .banner .banner-content #banner-content-h2{
+.banner-section .banner .banner-content #banner-content-h2 {
   color: #30B868;
 }
 
-.banner-section .banner .banner-content p{
+.banner-section .banner .banner-content p {
   color: white;
   width: 650px;
   justify-content: center;
@@ -124,14 +125,14 @@ header .nav-section nav .nav-ul ul{
   line-height: 30px;
 }
 
-.banner .banner-btn{
+.banner .banner-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 15px;
 }
 
-.banner .banner-btn .btn2{
+.banner .banner-btn .btn2 {
   color: white;
   border: 1px solid white;
   padding: 15px 12px;
@@ -141,32 +142,32 @@ header .nav-section nav .nav-ul ul{
   cursor: pointer;
 }
 
-                            /* Notes section */
+/* Notes section */
 
-.notes-section{
+.notes-section {
   margin: 100px auto;
   text-align: center;
   max-width: 1600px;
 }
 
-.notes-section h1{
+.notes-section h1 {
   font-size: 48px;
   font-weight: 700;
   margin-top: 16px;
 }
 
-.notes-section p{
+.notes-section p {
   margin-top: 15px;
   color: #627382;
 }
 
-.notes-section .note-cards{
+.notes-section .note-cards {
   display: flex;
   margin-top: 40px;
   justify-content: space-between;
 }
 
-.notes-section .card{
+.notes-section .card {
   height: 300px;
   width: 300px;
   box-shadow: 0px 0px 8px 0px #0000000f;
@@ -177,12 +178,12 @@ header .nav-section nav .nav-ul ul{
   margin-top: 45px;
 }
 
-.notes-section .card:hover{
+.notes-section .card:hover {
   cursor: pointer;
   border: 0.25px solid #f95555;
 }
 
-.notes-section .note-cards .card #note-img{
+.notes-section .note-cards .card #note-img {
   height: 60px;
   width: 60px;
   background-color: #f95555;
@@ -191,9 +192,9 @@ header .nav-section nav .nav-ul ul{
   margin-top: 60px;
 }
 
-                              /* Second Brain Section */
+/* Second Brain Section */
 
-.second-brain{
+.second-brain {
   max-width: 1600px;
   display: flex;
   margin: 0 auto;
@@ -201,7 +202,7 @@ header .nav-section nav .nav-ul ul{
   gap: 60px;
 }
 
-.sec-brain-img{
+.sec-brain-img {
   height: 650px;
   width: 850px;
   background-image: url(./image/knowledge.png);
@@ -209,54 +210,54 @@ header .nav-section nav .nav-ul ul{
   border-radius: 15px;
 }
 
-.second-brain-solution{
+.second-brain-solution {
   margin-top: 100px;
   width: 1100px;
 }
 
-.second-brain-solution #green-p{
+.second-brain-solution #green-p {
   color: #30B868;
-  font-weight: 500
+  font-weight: 500;
 }
 
-.second-brain-solution h2{
+.second-brain-solution h2 {
   margin-top: 15px;
   font-size: 48px;
   font-weight: 700;
   width: 550px;
 }
 
-.second-brain-solution #sec-brain-p{
+.second-brain-solution #sec-brain-p {
   margin-top: 15px;
   width: 500px;
   color: #627382;
   font-size: 15px;
 }
 
-.fa-circle-check-div{
+.fa-circle-check-div {
   margin-top: 40px;
 }
 
 
-.fa-circle-check-div i{
+.fa-circle-check-div i {
   color: #30B868;
 }
 
-.fa-circle-check-div h4{
+.fa-circle-check-div h4 {
   font-size: 16px;
   font-weight: 600;
   margin-top: 15px;
 }
 
-                              /* Early Access Section */
-.early-access-section{
+/* Early Access Section */
+.early-access-section {
   max-width: 1600px;
   height: 300px;
   margin: 0 auto;
-  padding-top: 100px ;
+  padding-top: 100px;
 }
 
-.early-access-section .early-access-div{
+.early-access-section .early-access-div {
   background-color: #f7f6f2;
   border-radius: 15px;
   padding: 80px;
@@ -264,22 +265,29 @@ header .nav-section nav .nav-ul ul{
   gap: 18px;
 }
 
-.early-access-section h2{
+.early-access-section h2 {
   font-size: 40px;
   font-weight: 700;
 }
 
-.early-access-section .early-access-div h2,p,button{
+.early-access-section .early-access-div h2,
+p,
+button {
   margin-top: 18px;
 }
 
-.early-access-section .early-access-div p{
+.early-access-section .early-access-div p {
   color: #627382;
   font-size: 15px;
 }
 
+.early-access-section .early-access-div #tem {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
 
-                              /* footer */
+/* footer */
 
 footer {
   margin-top: 200px;
@@ -288,14 +296,14 @@ footer {
   background-color: rgba(0, 25, 49, 1);
 }
 
-.footer-div{
+.footer-div {
   max-width: 1600px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-.footer-div #foot-img-div{
+.footer-div #foot-img-div {
   background-image: url(./image/logo-footer.png);
   height: 60px;
   width: 140px;
@@ -304,23 +312,23 @@ footer {
   margin-top: 50px;
 }
 
-.footer-div .social-div h3{
+.footer-div .social-div h3 {
   font-size: 20px;
   font-weight: 500;
   margin-top: 50px;
 }
 
-.footer-div .social-div i{
+.footer-div .social-div i {
   margin-top: 15px;
   cursor: pointer;
 }
 
-footer #foot-hr{
+footer #foot-hr {
   width: 1600px;
   margin: 50px auto;
 }
 
-footer  .copyrights{
+footer .copyrights {
   justify-items: center;
   height: 50px;
 }
